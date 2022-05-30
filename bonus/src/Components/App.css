@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+li {
+  list-style-type: none;
+}
+@media (max-width: 900px){
+  #registration,
+  #login,
+  #apply,
+  #registrationBuis{
+      width:50vw;
+      margin:0 auto;
+      margin-top:10%;
+  }
+  #form_registration,
+  #Form_login,
+  #Form_apply,
+  #form_registrationBuis{
+      padding: 6vh;
+  }
+}
+
+  #registration,
+  #login,
+  #apply,
+  #registrationBuis  {
+  width:40vw;
+  margin:0 auto;
+  margin-top:10%;
+}
+
+
+/* Bordered form */
+#form_registration,
+#Form_login,
+#Form_apply,
+#form_registrationBuis{
+  padding: 4vh;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* Full-width inputs */
+input[type=text], 
+input[type=password], 
+input[type=email], 
+input[type=number],
+input[type=file],
+input[type=image], 
+input[type=radio],
+input[type=tel],
+input[type=date],
+input[type=numeric],
+input[type=textarea],
+select
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+.button_form{
+  background-color: #0B005D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button_form:hover {
+  background-color: white;
+  color: #0B005D;
+  border: 1px solid #0B005D;
+  transition: 0.4s;
+}
+.hidden{
+  visibility: hidden;
+}
+/*saut de ligne*/
+.saut{
+  margin-bottom: 3vh;
+}
+
+/*div parente */
+
+#content_user_account h3 {
+color: #fff;
+background-color: #0B005D;
+padding: 1vh;
+margin: 3vh;
+}
+/*coter infos user */
+
+
+#info_user > div{
+  text-align: center;
+  padding: 4vh;
+}
+
+#content_user_account button {
+  color: #fff;
+  /* padding: 0.5vh; */
+  margin: 0.2vh;
+  border: solid 1px #0B005D;
+  cursor: pointer;
+  border-radius: 3px;
+  /* margin-left: 7vh; */
+  background-color: #0B005D;
+}
+
+#content_user_account button:hover{
+  background-color: transparent;
+  color: #0B005D;
+  border: 1px solid #0B005D;
+transition: 0.4s;
+}
+
+#info_user img{
+  width: 80px;
+}
+
+/*coter candidate user */
+
+
+
+#candidacy_user li{
+padding: 3vh;
+}
+
+@media (min-width: 750px){
+  #content_user_account{
+      display: flex;
+      justify-content: center;
+      
+  }
+  #info_user{
+      width: 50vw;
+  }
+  #candidacy_user{
+      width: 50vw;
+  }
+  
+  }
+  @media (max-width: 750px){
+      #info_user{
+          width: 100vw;
+      }
+      #candidacy_user{
+          width: 100vw;
+      }
+      
+  }
+
+  #contenant_annouc{
+    display: flex;
+    justify-content: center;
+}
+
+#Annoucem {
+	padding: 5vh;
+	margin: 3px;
+	/* text-align: left; */
+	border: solid 3px #f7f7f7;
+	/* width: 30vw; */
+}
+img {
+	vertical-align: middle;
+	border-style: none;
+	width: 320px;
+}
+.Home{
+  width: 30vw;
+}
+#sectionhome{
+    display: inline-flex!important;
+    flex-grow: 4;
+}
+.marg{
+  margin: 0.5vh;
+}
+.text-muted {
+	color: #000 !important;
+	font-size: large!important;
+}
+
+.button_del {
+	background-color: #fff;
+	border: solid #eee 2px;
+	color: #eee;
+}
+.button_del:hover {
+	color: #000;
+}
